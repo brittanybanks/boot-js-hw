@@ -23,6 +23,33 @@ $(".changeAllBtn").click(function() {
     $(".thirdDiv").css("border-color", "yellow");
 })
 
-$(".hideBtn1").click(function(){
-    $(".firstDiv").toggle();
+$(".hideBox1").click(function(){
+    $(".firstDiv").hide();
 })
+
+$(".hideBox2").click(function(){
+    $(".secondDiv").hide();
+})
+
+$(".hideBox3").click(function(){
+    $(".thirdDiv").hide();
+})
+
+$(".hideAllBox").click(function(){
+    $(".firstDiv").hide();
+    $(".secondDiv").hide();
+    $(".thirdDiv").hide();
+
+})
+
+$(".resetColors").click(function(){
+    $(".firstDiv").css("background", "red");
+    $(".secondDiv").css("background", "blue");
+    $(".thirdDiv").css("background", "limegreen");
+ })
+
+ $(".showAllBoxes").click(function(){
+    $(".firstDiv").show();
+    $(".secondDiv").show();
+    $(".thirdDiv").show();
+ })
