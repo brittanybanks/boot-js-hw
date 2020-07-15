@@ -45,14 +45,16 @@ $(".hideAllBtn").click(function(){
     
 })
 
-$(".resetColors").click(function(){
-    $(".firstDiv").reset();
-    $(".secondDiv").reset();
-    $(".thirdDiv").reset();
- })
+$(".resetBtn").click(function(){ 
+
+    $(".firstDiv").css("background", "red");
+    $(".firstDiv").css("border-color", "black");
+    $(".secondDiv").css("background", "blue");
+    $(".secondDiv").css("border-color", "yellow", "dotted");
+    $(".thirdDiv").css("background", "limegreen");
+    $(".thirdDiv").css("border-color", "purple");
+})
 
  $(".showAllBoxes").click(function(){
-    $(".firstDiv").show();
-    $(".secondDiv").show();
-    $(".thirdDiv").show();
+    $(".firstDiv, .secondDiv, .thirdDiv").show();
 })
