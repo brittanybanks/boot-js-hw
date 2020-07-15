@@ -6,13 +6,14 @@ body{
 
 h3{
     text-decoration: underline;
+    margin: 50px 50px;
 }
 
 .boxesRow{
     height: 300px;
 }
 
-.boxesRow div {
+.boxesRow div{
     height: 100%;
 }
 
@@ -28,11 +29,11 @@ h3{
 
 .changeAllColors{
     background: #000;
-    border: 10px dotted cadetblue;
+    border: 10 px dotted cadetblue; 
 }
 .secondDiv{
     background: blue;
-    border: 3px dashed yellow;
+    border: 3px dotted yellow;
     margin: 0 50px;
 }
 
@@ -44,6 +45,7 @@ h3{
 .changeTitle{
     color: blue;
     text-decoration: underline;
+    margin: 50px 50px;
 }
 
 .rowBtns span{
@@ -54,5 +56,14 @@ h3{
 .hideTitle{
     color: blue;
     text-decoration: underline;
+    margin: 50px 50px;
 }
+
+.noTitle{
+    color: white;
+    margin: 50px 50px;
 }
+
+
+
+

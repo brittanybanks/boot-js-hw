@@ -1,55 +1,58 @@
 $(".changeBtn1").click(function() {
-    console.log("click is working Button 1ve")
-    ;
- $(".firstDiv").addClass("firstDivNew")
+    console.log("click is working Btn 1");
+
+ $(".firstDiv").addClass("firstDivNew");
+
 })
+
 $(".changeBtn2").click(function() {
-    console.log("click is working Button 2")
-    ;
+    console.log("click is working Btn 2");
     
     $(".secondDiv").css("background", "yellow");
     $(".secondDiv").css("border-color", "blue");
+})
 
 $(".changeBtn3").click(function() {
-    console.log("click is working Button 3")
-    ;
+    console.log("click is working Btn 3");
+
+    $(".thirdDiv").css("background", "black");
+    $(".thirdDiv").css("border-color", "orange");
 })
+
 $(".changeAllBtn").click(function() {
-    console.log("click is working Change All")
-    ;
+    console.log("click is working Change All");
+
     $(".firstDiv").addClass("changeAllColors");
     $(".secondDiv").addClass("firstDivNew");
     $(".thirdDiv").css("background", "orange");
     $(".thirdDiv").css("border-color", "yellow");
 })
 
-$(".hideBox1").click(function(){
+$(".hideBtn1").click(function(){
     $(".firstDiv").hide();
 })
 
-$(".hideBox2").click(function(){
+$(".hideBtn2").click(function(){
     $(".secondDiv").hide();
 })
 
-$(".hideBox3").click(function(){
+$(".hideBtn3").click(function(){
     $(".thirdDiv").hide();
 })
 
-$(".hideAllBox").click(function(){
-    $(".firstDiv").hide();
-    $(".secondDiv").hide();
-    $(".thirdDiv").hide();
-
+$(".hideAllBtn").click(function(){
+    $(".firstDiv, .secondDiv, .thirdDiv").hide();
+    
 })
 
 $(".resetColors").click(function(){
-    $(".firstDiv").css("background", "red");
-    $(".secondDiv").css("background", "blue");
-    $(".thirdDiv").css("background", "limegreen");
+    $(".firstDiv").reset();
+    $(".secondDiv").reset();
+    $(".thirdDiv").reset();
  })
 
  $(".showAllBoxes").click(function(){
     $(".firstDiv").show();
     $(".secondDiv").show();
     $(".thirdDiv").show();
- })
+})
