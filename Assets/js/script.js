@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    console.log("ready");
+})
+
 $(".changeBtn1").click(function() {
     console.log("click is working Btn 1");
 
